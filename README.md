@@ -1,7 +1,9 @@
-Laravel messaging system
-       • A Laravel real time chat that allows you to add a complete user messaging system 
 
-Features
+## Laravel messaging system
+
+ Laravel real time chat that allows you to add a complete user messaging system.
+
+## Features
       • Users chat system.
       • Real-time contacts list updates.
       • Favorites contacts list (Like stories style) and add to favorite button.
@@ -17,10 +19,11 @@ Features
       • Responsive design with all devices.
       • User settings and chat customization : user's profile photo, dark mode and chat color. with simple UI design.
 
-Technologies
+## Technologies
       • Laravel.
       • Vanilla js.
       • Ajax.
       • Sql DB.
       • Pusher.
  
+
