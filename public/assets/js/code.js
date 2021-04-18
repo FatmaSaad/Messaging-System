@@ -380,6 +380,9 @@ function IDinfo(id, type) {
     }
 }
 
+// $("#message-form").emojioneArea({
+//           hideSource: false,
+//         });
 /**
  *-------------------------------------------------------------
  * Send message function

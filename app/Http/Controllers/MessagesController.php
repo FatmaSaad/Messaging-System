@@ -127,7 +127,8 @@ class MessagesController extends Controller
             // allowed extensions
             $allowed_images =  $this->messenger->getAllowedImages();
             $allowed_files  =  $this->messenger->getAllowedFiles();
-            $allowed        = array_merge($allowed_images, $allowed_files);
+            $allowed_video  =    $this->messenger->getAllowedVideo();
+            $allowed        = array_merge($allowed_images, $allowed_files,$allowed_video);
 
             $file = $request->file('file');
             // if size less than 150MB
