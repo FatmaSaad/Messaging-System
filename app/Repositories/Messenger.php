@@ -17,8 +17,8 @@ class Messenger
      * @var
      */
     public static $allowed_images = array('png', 'jpg', 'jpeg', 'gif');
-    public static $allowed_files  = array('zip', 'rar', 'txt', 'mp3', 'webm');
-    public static $allowed_video = array('mp4');
+    public static $allowed_files  = array('zip', 'rar', 'txt','pdf');
+    public static $allowed_video = array('mp4', 'mp3', 'webm');
 
     /**
      * This method returns the allowed image extensions

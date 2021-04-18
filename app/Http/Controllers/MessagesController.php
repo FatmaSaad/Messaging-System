@@ -377,7 +377,7 @@ class MessagesController extends Controller
         for ($i = 0; $i < count($shared); $i++) {
             $sharedPhotos .= view('messenger.layouts.listItem', [
                 'get' => 'sharedPhoto',
-                'image' => asset('storage/attachments/' . $shared[$i]),
+                'image' => asset('storage/chat/' . $shared[$i]),
             ])->render();
         }
         // send the response
