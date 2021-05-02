@@ -12,6 +12,7 @@
         }
     }
   });
+  console.log(pusher);
 </script>
 <script src="{{asset('assets/js/code.js') }}"></script>
 <script>

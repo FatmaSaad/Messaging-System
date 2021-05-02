@@ -1,6 +1,6 @@
 {{-- -------------------- Saved Messages -------------------- --}}
 @if($get == 'saved')
-    <table class="messenger-list-item m-li-divider @if('user_'.Auth::user()->id == $id && $id != "0") m-list-active @endif">
+    <table class="messenger-list-item m-li-divider @if('user_'.Auth::id() == $id && $id != "0") m-list-active @endif">
         <tr data-action="0">
             {{-- Avatar side --}}
             <td>
@@ -10,7 +10,7 @@
             </td>
             {{-- center side --}}
             <td>
-                <p data-id="{{ 'user_'.Auth::user()->id }}">Saved Messages <span>You</span></p>
+                <p data-id="{{ 'user_'.Auth::id() }}">Saved Messages <span>You</span></p>
                 <span>Save messages secretly</span>
             </td>
         </tr>

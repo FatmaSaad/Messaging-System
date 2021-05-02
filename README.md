@@ -12,6 +12,8 @@
       • Contact item's last message indicator (e.g. You: ....).
       • Real-time user's active status.
       • Real-time typing indicator.
+      • Supports Emoji v13.1 (depending on OS) and custom emoji.
+      • Renders native emoji only, no spritesheets
       • Real-time seen messages indicator.
       • Real-time internet connection status.
       • Upload attachments (Photo/File).
